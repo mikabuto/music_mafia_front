@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  padding: 12px;
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #dfdfdf;
+  }
+  &:active {
+    background-color: #c7c7c7;
+  }
+}
